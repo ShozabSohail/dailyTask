@@ -1,2 +1,2 @@
 # dailyTask
-Job given by the Intersetllus team.
+Task given by the Intersetllus team.
