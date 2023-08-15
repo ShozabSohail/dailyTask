@@ -10,7 +10,13 @@ let main = {
       }
     }
   };
-  
-  let output = `main{\na:${main.a},\nb:${main.b},\ncx:"${main.c.x}",\ncy:"${main.c.y}",\nczt:"${main.c.z.t}",\nczu:"${main.c.z.u}",\n}`;
-  console.log(output);
+  let outpu={
+    a:main.a,
+    b:main.b,
+    cx:main.c.x,
+    cy:main.c.y,
+    czt:main.c.z.t,
+    czu:main.c.z.u,
+  }
+console.log(outpu.cx);
   
